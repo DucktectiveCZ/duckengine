@@ -1,0 +1,4 @@
+[children.player]
+type = "Player"
+pos = { x=0, y=0 }
+trans = { width=50, height=50 }

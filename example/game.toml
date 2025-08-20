@@ -1,0 +1,6 @@
+[meta]
+name = "Example"
+author = "DucktectiveCZ"
+
+[game]
+entry = "Main"
