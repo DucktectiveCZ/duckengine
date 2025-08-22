@@ -1,0 +1,8 @@
+[package]
+name = "duckengine-core"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+semver = { version = "1.0.26", features = ["serde"] }
+thiserror = "2.0.16"

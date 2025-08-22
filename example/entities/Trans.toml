@@ -1,3 +1,5 @@
 [variables]
-width = "num"
-height = "num"
+width = "Num"
+height = "Num"
+
+[children]

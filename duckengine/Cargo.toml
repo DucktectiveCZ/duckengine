@@ -1,0 +1,14 @@
+[package]
+name = "duckengine"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+duckengine-runtime = { path = "../duckengine-runtime" }
+duckengine-graphics-sdl = { path = "../duckengine-graphics-sdl" }
+duckengine-script-lua = { path = "../duckengine-script-lua" }
+duckengine-loader-folder = { path = "../duckengine-loader-folder" }
+clap = "4.5.41"
+clap_derive = "4.5.41"
+log = "0.4.27"
+env_logger = "0.11.8"

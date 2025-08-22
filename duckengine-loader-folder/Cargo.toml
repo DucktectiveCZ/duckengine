@@ -1,10 +1,12 @@
 [package]
-name = "duckengine-loader"
+name = "duckengine-loader-folder"
 version = "0.1.0"
 edition = "2024"
 
 [dependencies]
-mlua = { version = "0.11.2", features = ["lua54"] }
+duckengine-core = { path = "../duckengine-core" }
+env_logger = "0.11.8"
+log = "0.4.27"
 semver = { version = "1.0.26", features = ["serde"] }
 serde = { version = "1.0.219", features = ["derive"] }
 thiserror = "2.0.14"

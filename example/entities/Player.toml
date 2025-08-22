@@ -2,3 +2,5 @@
 [children.Trans]
 [children.Img]
 img = "player.png"
+
+[variables]

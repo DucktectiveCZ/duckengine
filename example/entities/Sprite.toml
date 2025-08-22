@@ -1,4 +1,6 @@
 requires = ["Pos", "Trans"]
 
 [variables]
-img = { type="Img" }
+img = "Str"
+
+[children]

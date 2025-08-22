@@ -1,4 +1,10 @@
 [workspace]
+resolver = "3"
 members = [
-  "duckengine-loader",
+  "duckengine",
+  "duckengine-core",
+  "duckengine-graphics-sdl",
+  "duckengine-loader-folder",
+  "duckengine-runtime",
+  "duckengine-script-lua",
 ]
